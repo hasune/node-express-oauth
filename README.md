@@ -6,13 +6,8 @@ GOOGLE_CLIENT_ID = ''
 GOOGLE_CLIENT_SECRET = ''  
 CALLBACK_URL = ''  
 
-## How to get ?  
-
-- Google apis credentials Page ->  User Authentication Information  
-- Make Oauth client ID / Secret key / Callback URI
-
-
-
+  
+> auth.js
 ```javascript
 const GOOGLE_CLIENT_ID = 'google client id';
 const GOOGLE_CLIENT_SECRET = 'google client secret';
@@ -25,6 +20,13 @@ passport.use(new GoogleStrategy({
     passReqToCallback   : true
   },
 ```
+
+---
+
+## How to get ?  
+
+- Google apis credentials Page ->  User Authentication Information  
+- Make Oauth client ID / Secret key / Callback URI
 
 ---
 
